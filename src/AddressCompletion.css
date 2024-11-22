@@ -1,0 +1,14 @@
+.address-bloc {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .address-bloc:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .no-suggestion {
+    padding: 10px;
+    color: #999;
+  }
+  

@@ -1,0 +1,100 @@
+.home-container {
+    display: flex;
+    flex-direction: row; /* Organise les enfants horizontalement */
+    height: 100vh; /* Utilise toute la hauteur de l'écran */
+    background-color: #FDFCF4; /* Applique la couleur de fond à la zone spécifique */
+
+  }
+  
+  .left-container,
+  .right-container {
+    flex: 1; /* Prend 50% de la largeur */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Organise les éléments verticalement */
+    justify-content: flex-start;
+    }
+    
+  .home-image {
+    width: 100%; /* L'image prend toute la largeur du conteneur */
+    height: 100%; /* L'image prend toute la hauteur du conteneur */
+    object-fit: cover; /* L'image s'adapte à la taille du conteneur sans distorsion */
+  }
+
+
+  .image-banner {
+    width: 100%; /* L'image prend toute la largeur de la demi-page */
+    height: 20%; /* La hauteur est de 50% de la hauteur totale de la demi-page */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre l'image verticalement */
+    justify-content: flex-start;
+    margin-bottom: 20px; /* Espacement entre l'image et le texte */
+  }
+  
+  /* .banner-image : ajuster l'image à la taille du conteneur */
+  .banner-image {
+    width: 50%; /* L'image prend toute la largeur de son conteneur */
+    height: 80%; /* L'image occupe toute la hauteur de son conteneur */
+    object-fit: contain; /* L'image est redimensionnée sans déformation pour entrer dans le conteneur*/
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement le texte et les boutons */
+    text-align: center; /* Centre le texte si nécessaire */
+
+  }
+  
+  .next-button {
+    background-color: #1C7862; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: bold; /* Pour un effet gras */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Change le curseur au survol */
+    border-radius: 5px; /* Arrondit les coins */
+    margin-top: 20px; /* Espace au-dessus du bouton */
+    width: 33%; /* Le bouton occupe un tiers de la largeur de son conteneur */
+    max-width: 200px; /* Optionnel : définit une largeur maximale */
+    min-width: 150px; /* Optionnel : définit une largeur minimale */
+    margin: 0 auto; /* Cette règle centre le bouton horizontalement */
+
+  }
+  
+  
+  /* Optionnel : Modifier la couleur au survol */
+  .next-button:hover {
+    background-color: #00B685; /* Couleur de fond au survol */
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+  h1 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: bold; /* Pour un effet gras */
+    font-size: 40px;
+    color: #1C7862
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
